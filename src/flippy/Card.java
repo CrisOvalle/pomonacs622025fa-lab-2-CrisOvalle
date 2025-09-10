@@ -145,7 +145,7 @@ public class Card {
 	 */
 	public boolean isRedCard() {
 		// TODO: Fill in good stuff here!
-		if (suit == "hearts" || suit == "diamonds") {
+		if (suit.equals("hearts") || suit.equals("diamonds")) {
 			return true;
 		}
 		return false;
